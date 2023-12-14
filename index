@@ -1,0 +1,53 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tu Página con Bootstrap</title>
+  <!-- Incluye los archivos de Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado (Header) -->
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Lilith games</h1>
+    <p></p>
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <div class="container mt-3">
+
+    <!-- Sección Izquierda -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 >Logotipo Original</h2>
+        <!-- Reemplaza la siguiente línea con la ruta correcta de tu logotipo original -->
+        <img src="lilith.png" alt="Logotipo Original" class="img-fluid">
+      </div>
+
+      <!-- Sección Derecha -->
+      <div class="col-md-6">
+        <h2>Imagen Digitalizada del Inciso 9</h2>
+        <!-- Reemplaza la siguiente línea con la ruta correcta de la imagen digitalizada del inciso 9 -->
+        <img src="logoAzul.png" alt="Imagen Digitalizada del Inciso 9" class="img-fluid">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Pie de página (Footer) -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 VJOH. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Incluye los archivos de Bootstrap JS (opcional, pero necesario para algunas funcionalidades) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
